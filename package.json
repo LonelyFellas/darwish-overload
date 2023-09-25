@@ -1,6 +1,6 @@
 {
   "name": "darwish-overload",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "type": "module",
   "main": "./lib/index.js",
   "module": "./esm/index.js",
