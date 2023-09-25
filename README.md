@@ -5,5 +5,5 @@
 ## install
 ```bash
 # install
- $ npm install darwish-overload
+$ npm install darwish-overload
 ```
