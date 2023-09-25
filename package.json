@@ -6,6 +6,14 @@
   "module": "./esm/index.js",
   "types": "./lib/index.d.ts",
   "typings": "./lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "directory": "https://github.com//LonelyFellas/darwish-overload/"
+  },
+  "bugs": {
+    "url": "https:://github.com/LonelyFellas/darwish-overload/issues"
+  },
+  "homepage": "https://github.com//LonelyFellas/darwish-overload#readme",
   "files": [
     "lib/",
     "esm/",
