@@ -1,6 +1,6 @@
 {
-  "name": "darwish-override",
-  "version": "0.0.1",
+  "name": "darwish-overload",
+  "version": "0.0.0",
   "type": "module",
   "main": "./lib/index.js",
   "module": "./esm/index.js",
@@ -18,6 +18,9 @@
     "utils",
     "darwish"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build:cjs": "tsc",
     "build:es": "tsc -m esNext --outDir esm",
