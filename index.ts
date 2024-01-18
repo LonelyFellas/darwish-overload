@@ -60,11 +60,3 @@ class JsOverload implements JsOverload {
 }
 
 export default JsOverload;
-
-const fn = new JsOverload("testFn");
-const testFnNumNum = (a: number, b: number) => {
-  return a + b;
-};
-const testFnStrStr = (a: string, b: string) => {
-  return [a, b].join("___");
-};

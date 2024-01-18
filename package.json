@@ -32,7 +32,8 @@
   "scripts": {
     "build:cjs": "tsc",
     "build:es": "tsc -m esNext --outDir esm",
-    "build": "pnpm build:cjs && pnpm build:es"
+    "build": "pnpm build:cjs && pnpm build:es",
+    "publish": "npm publish"
   },
   "devDependencies": {
     "@types/node": "^20.11.0",
